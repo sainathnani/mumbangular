@@ -1,0 +1,94 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+$primary-color: #0c2d2c;
+$secondary-color: #0D1F22;
+$secondary-color-shade: #011627;
+$black-shade: #040303;
+$white-color: #F7FFF7;
+$alt-white-shade: #EBECED;
+$transparent-color: transparent;
+$padding-xs: 5px 10px;
+$padding-small: 10px;
+$font-size: 1em;
+$margin-top: 20px;
+$margin-bottom: 20px;
+$margin-left: 20px;
+$margin-right: 20px;
+$padding-top: 20px;
+$padding-bottom: 20px;
+$padding-right: 20px;
+$padding-left: 20px;
+$margin: 20px;
+$padding: 20px;
+$padding-xlarge: 40px;
+$default-fontfamily: 'Roboto', sans-serif;
+$emphasised-fontfamily: 'Raleway', sans-serif;
+
+  
+body {
+  	font-size: $font-size !important;
+    color: $secondary-color !important;
+    background: $alt-white-shade !important;
+    font-family: $default-fontfamily !important;
+}
+  
+button:focus {
+    outline: 5px auto $secondary-color !important;
+}
+
+.mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+	background: $secondary-color !important;
+}
+
+button.mat-button {
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 600;
+    color: $secondary-color;
+}
+
+.padding {
+  padding: $padding;
+}
+
+.padding-xlarge {
+  padding: $padding-xlarge;
+}
+
+.padding-xs {
+  padding: $padding-xs;
+}
+
+.primary-button {
+  background: $primary-color;
+  color: $white-color;
+  padding: $padding-xs;
+}
+
+.backgroundcls {
+  background-color: $white-color;
+  margin-top: $padding;
+  margin-bottom: $padding;
+}
+
+.bigtextcls {
+  font-weight: bold !important;
+  font-size: large !important;
+}
+.fa {
+  padding-right: $padding-small;
+}
+/*.mat-table {
+    border: 1px solid rgba(69,65,94,0.3);
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+.mat-header-cell, .mat-cell {
+    border-right: 1px solid rgba(69,65,94,0.3);
+    padding: 20px;
+    color: $primary-color;
+    font-size: 87.5%;
+    border-bottom: 1px solid rgba(69,65,94,0.3);
+}*/
